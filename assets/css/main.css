@@ -1,0 +1,33 @@
+.header {background-color:#BCE640;}
+.footer {margin-top:20px;margin-bottom:60px;padding-bottom:20px;background-color:#BCE640;}
+img.header-logo {width:221px;height:auto;}
+.article-break {margin-top:25px;padding-top:25px;border-top:3px solid #BCE640;}
+.article p {font-size:16px;}
+.gallery,.gallery-almond {padding-top:10px;padding-bottom:10px;}
+.gallery>img,.gallery-almond>img {width:100%;height:auto;padding:4px;border:2px solid #BCE640;background-color:#FFFFFF;}
+
+@media (min-width:445px) {
+  .article p {font-size:18px;}
+  .article strong {font-size:20px;}
+}
+
+@media (max-width:599px) {
+  .gallery,.gallery-almond {float:none;margin-left:auto;margin-right:auto;}
+  .gallery {width:90%;}
+  .gallery-almond {width:65%;}
+}
+@media (min-width:600px) {
+  .gallery,.gallery-almond {float:left;margin-left:0px;margin-right:0px;}
+}
+
+/* override Bootstrap CSS */
+@media (min-width:600px) {
+  .col-s-6 {width:50%;}
+  .col-s-4 {width:33.33333333%;}
+}
+@media (min-width:768px) {
+  .col-sm-4 {width:33.33333333%;}
+}
+@media (min-width:992px) {
+  .col-md-4 {width:33.33333333%;}
+}
